@@ -11,5 +11,8 @@ namespace WebApplication.Models.AccountViewModels
         [Required]
         [EmailAddress]
         public string Email { get; set; }
+
+        
+        public string Test{get;set;}
     }
 }
