@@ -221,6 +221,7 @@ namespace WebApplication.Controllers
                 }
                 AddErrors(result);
                 return View(model);
+                
             }
             return RedirectToAction(nameof(Index), new { Message = ManageMessageId.Error });
         }
